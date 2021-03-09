@@ -207,7 +207,7 @@
         border-bottom:5px solid var(--bio-border-color) ;
     }
 
-    #bio-container h2{
+    #about-container h1{
         display: none;
     }
 
