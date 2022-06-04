@@ -231,6 +231,11 @@ img {
   }
 }
 
+.grid_cer {
+  display: grid;
+  justify-content: space-around;
+}
+
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -974,6 +979,11 @@ img {
     margin-right: var(--mb-1);
   }
 
+  .grid_cer {
+    display: grid;
+    justify-content: space-around;
+  }
+
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
@@ -1020,6 +1030,11 @@ img {
 @media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
+  }
+
+  .grid_cer {
+    display: grid;
+    justify-content: space-around;
   }
 
   .home__data {
