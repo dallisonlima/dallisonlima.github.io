@@ -558,83 +558,64 @@ img {
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
-  text-align: center;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2);
-  justify-content: center;
 }
-
 .qualification__button {
-  text-align: center;
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
-  justify-content: center;
 }
-
 .qualification__button:hover {
-  text-align: center;
   color: var(--first-color);
-  justify-content: center;
 }
-
 .qualification__icon {
-  text-align: center;
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
-  justify-content: center;
 }
-
 .qualification__data {
-  text-align: center;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   column-gap: 1.5rem;
-  justify-content: center;
 }
-
 .qualification__title {
-  text-align: center;
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  justify-content: center;
 }
 
+.qualification__subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+.qualification__calendar {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(6px, -7px);
+}
 .qualification [data-content] {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  display: none;
 }
-
 .qualification__active[data-content] {
   display: block;
   text-align: center;
-  text-align: center;
   margin-right: auto;
   margin-left: auto;
-  justify-content: center;
-
-}
-
-#skills-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 25px;
-}
-
-.skill-box-certifications {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  flex: 1 1 33%;
-  max-width: 100%;
-  margin-bottom: 35px;
 }
 
 /*==================== SERVICES ====================*/
