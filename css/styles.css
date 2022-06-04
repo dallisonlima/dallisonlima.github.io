@@ -177,7 +177,7 @@ img {
 }
 
 .grid_cer {
-  display: flex;
+  display: grid;
   text-align: center;
 }
 
