@@ -181,6 +181,16 @@ img {
   text-align: center;
 }
 
+#flexbox {
+  display: flex;
+  height: 100px;
+  column-gap: 20px;
+}
+
+#flexbox > div {
+  flex: auto;
+}
+
 .header {
   width: 100%;
   position: fixed;
