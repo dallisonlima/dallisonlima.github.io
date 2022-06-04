@@ -1253,7 +1253,8 @@ img {
   }
 
   .qualification__active[data-content] {
-    text-align: center;
+    flex: 1 1 100%;
+    max-width: 100%;
     flex-direction: column;
   }
 }
