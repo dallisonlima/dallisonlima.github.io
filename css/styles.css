@@ -170,6 +170,17 @@ img {
   gap: 1.5rem;
 }
 
+.container_cer {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid_cer {
+  display: flex;
+  text-align: center;
+}
+
 .header {
   width: 100%;
   position: fixed;
