@@ -181,16 +181,6 @@ img {
   text-align: center;
 }
 
-#flexbox {
-  display: flex;
-  height: 100px;
-  column-gap: 20px;
-}
-
-#flexbox > div {
-  flex: auto;
-}
-
 .header {
   width: 100%;
   position: fixed;
@@ -636,6 +626,10 @@ img {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+.qualification__container{
+  grid-template-columns: repeat(1, 1fr);
 }
 
 /*==================== SERVICES ====================*/
