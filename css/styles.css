@@ -231,8 +231,9 @@ img {
 }
 
 .grid_cer {
-  display: grid;
-  justify-content: space-around;
+  display: block;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .nav__list {
