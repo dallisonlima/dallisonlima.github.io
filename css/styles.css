@@ -176,8 +176,7 @@ img {
 }
 
 .grid_cer {
-  display: flex;
-  text-align: space-around;
+  text-align: center;
 }
 
 .header {
@@ -1066,6 +1065,11 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .grid_cer {
+    display: flex;
+    justify-content: space-around;
+}
 
   body {
     margin: 0;
