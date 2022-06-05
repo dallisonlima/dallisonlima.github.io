@@ -177,7 +177,7 @@ img {
 
 .grid_cer {
   display: flex;
-  justify-content: space-around;
+  text-align: space-around;
 }
 
 .header {
@@ -980,8 +980,7 @@ img {
   }
 
   .grid_cer {
-    display: grid;
-    justify-content: space-around;
+    display: block;
   }
 
   .nav__menu {
@@ -1033,9 +1032,9 @@ img {
   }
 
   .grid_cer {
-    display: grid;
+    display: flex;
     justify-content: space-around;
-  }
+}
 
   .home__data {
     grid-column: initial;
