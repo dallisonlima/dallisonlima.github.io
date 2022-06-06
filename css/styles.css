@@ -538,7 +538,7 @@ img {
 }
 
 .skills__react {
-  width: 80%;
+  width: 30%;
 }
 
 .skills__nodejs {
@@ -546,7 +546,7 @@ img {
 }
 
 .skills__mongodb {
-  width: 70%;
+  width: 80%;
 }
 
 .skills__php {
@@ -1145,7 +1145,7 @@ img {
   }
 
   .about__img {
-    width: 350px;
+    width: 300px;
   }
 
   .about__description {
